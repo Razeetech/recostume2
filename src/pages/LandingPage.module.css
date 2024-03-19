@@ -1,0 +1,108 @@
+.landingpageChild {
+  align-self: stretch;
+  height: 689px;
+  position: relative;
+  display: none;
+  opacity: 0.1;
+  z-index: 3;
+}
+.switchCaseChild {
+  position: absolute;
+  top: 176px;
+  left: 197px;
+  width: 232.9px;
+  height: 233.8px;
+  z-index: 3;
+}
+.pexelsJenniferEnujiugha4166Icon {
+  position: absolute;
+  height: calc(100% - 0.1px);
+  top: 0;
+  bottom: 0.1px;
+  left: 0;
+  max-height: 100%;
+  width: 293px;
+  object-fit: contain;
+  z-index: 4;
+}
+.switchCase {
+  width: 429.9px;
+  height: 409.8px;
+  position: absolute;
+  margin: 0 !important;
+  right: 166.1px;
+  bottom: 426.2px;
+}
+.frameGroup {
+  width: 1240.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 110.34999999999992px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 205.1px;
+  width: 246.1px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -40.1px;
+  left: 0;
+  object-fit: contain;
+}
+.frameParent,
+.landingpage {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-161xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.landingpage {
+  width: 100%;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 110px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    padding-bottom: 117px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .frameParent {
+    padding-bottom: 76px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameGroup {
+    gap: 55px 110.3px;
+  }
+  .frameParent {
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+  .landingpage {
+    gap: 55px 110px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    gap: 28px 110.3px;
+  }
+  .landingpage {
+    gap: 27px 110px;
+  }
+}
